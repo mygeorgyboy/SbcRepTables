@@ -1,0 +1,13 @@
+{
+    "dialog-state": {
+        "query": "hm_style",
+        "path": "~/Documents/EstudiosR/proyectos/SbcRepTables",
+        "regex": false,
+        "caseSensitive": false,
+        "filePatterns": [],
+        "excludeFilePatterns": [],
+        "resultsCount": 3,
+        "errorCount": 0,
+        "replaceErrors": ""
+    }
+}

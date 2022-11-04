@@ -1,0 +1,1230 @@
+
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init .
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -a -m "commit message goes here"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"P"r"u"e"b"a"[1P"[1P"[1P"[1P"[1P"[1P"i"n"i"c"i"o" "S"B"C"R"e"p"T"a"b"l"e"s"
+[master (root-commit) b02a929] inicio SBCRepTables
+ 19 files changed, 187 insertions(+)
+ create mode 100644 DESCRIPTION
+ create mode 100644 INDEX
+ create mode 100644 Meta/Rd.rds
+ create mode 100644 Meta/features.rds
+ create mode 100644 Meta/hsearch.rds
+ create mode 100644 Meta/links.rds
+ create mode 100644 Meta/nsInfo.rds
+ create mode 100644 Meta/package.rds
+ create mode 100644 NAMESPACE
+ create mode 100644 R/SbcRepTables
+ create mode 100644 R/SbcRepTables.rdb
+ create mode 100644 R/SbcRepTables.rdx
+ create mode 100644 help/AnIndex
+ create mode 100644 help/SbcRepTables.rdb
+ create mode 100644 help/SbcRepTables.rdx
+ create mode 100644 help/aliases.rds
+ create mode 100644 help/paths.rds
+ create mode 100644 html/00Index.html
+ create mode 100644 html/R.css
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git clone git@github.com:albatrocity/gratuitator.git[K[K[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.g[1P/gratuitator.gm/gratuitator.gy/gratuitator.gg/gratuitator.ge/gratuitator.go/gratuitator.gr/gratuitator.gg/gratuitator.gy/gratuitator.gb/gratuitator.go/gratuitator.gy/gratuitator.g[C[C[C[C[C[C[C[C[C[C[C[C[1P.g[1P.g[1P.g[1P.g[1P.g[1P.g[1P.g[1P.g[1P.g[1P.g[1P.gS.gb.gc.gR.ge.gp.gT.ga.gb.gl.ge.gs.g[C[Cit
+Cloning into 'SbcRepTables'...
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git pull origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git pull origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push origin masterll[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclone git@github.com:mygeorgyboy/SbcRepTables.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pommit -a -m "inicio SBCRepTables"add .[K[1@init[C[Ccd SbcRepTables/[9Pls -ltrcd /Library/Frameworks/R.framework/Versions/3.5/Resources/library[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ltr[Kcd SbcRepTables/[6Pgit init .[1Padd[C[Ccommit -a -m "inicio SBCRepTables"lone git@github.com:mygeorgyboy/SbcRepTables.git
+Cloning into 'SbcRepTables'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git clone git@github.com:mygeorgyboy/SbcRepTables.git
+Cloning into 'SbcRepTables'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git clone git@github.com:mygeorgyboy/SbcRepTables.git
+Cloning into 'SbcRepTables'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmygeorgyboy/SbcRepTabe[K[Kbles
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+Counting objects: 25, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   4% (1/25)   Writing objects:   8% (2/25)   Writing objects:  12% (3/25)   Writing objects:  20% (5/25)   Writing objects:  24% (6/25)   Writing objects:  28% (7/25)   Writing objects:  32% (8/25)   Writing objects:  36% (9/25)   Writing objects:  40% (10/25)   Writing objects:  44% (11/25)   Writing objects:  48% (12/25)   Writing objects:  52% (13/25)   Writing objects:  56% (14/25)   Writing objects:  60% (15/25)   Writing objects:  64% (16/25)   Writing objects:  68% (17/25)   Writing objects:  72% (18/25)   Writing objects:  76% (19/25)   Writing objects:  80% (20/25)   Writing objects:  84% (21/25)   Writing objects:  88% (22/25)   Writing objects:  92% (23/25)   Writing objects:  96% (24/25)   Writing objects: 100% (25/25)   Writing objects: 100% (25/25), 59.11 KiB | 1.37 MiB/s, done.
+Total 25 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/mygeorgyboy/SbcRepTables
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ pwd
+/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+To https://github.com/mygeorgyboy/SbcRepTables
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin master
+To https://github.com/mygeorgyboy/SbcRepTables
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ o[Kpwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+drwxr-xr-x  3 jramirez  staff   96 Jul 30 18:43 R
+-rw-r--r--  1 jramirez  staff   31 Jul 30 18:43 NAMESPACE
+-rw-r--r--  1 jramirez  staff  386 Jul 30 18:57 DESCRIPTION
+drwxr-xr-x  5 jramirez  staff  160 Jul 30 18:57 man
+-rw-r--r--  1 jramirez  staff  356 Jul 30 20:42 SbcRepTables.Rproj
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr[4Ppwdgit push -u origin master
+To https://github.com/mygeorgyboy/SbcRepTables
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksb[K[Kmygeorgyboy/s[KSbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/mygeorgyboy/SbcRepTables/' not found
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables.i[Kgit
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Reinitialized existing Git repository in /Users/jramirez/Documents/Estudios/paquetes/SbcRepTables/.git/
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmygeorgyboyu[K/SbcRepTables
+fatal: remote origin already exists.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+
+remote: Repository not found.
+fatal: repository 'https://github.com/mygeorgyboy/SbcRepTables/' not found
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ 
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/mygeorgyboy/SbcRepTables/' not found
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+Counting objects: 42, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/33)   Compressing objects:   6% (2/33)   Compressing objects:   9% (3/33)   Compressing objects:  12% (4/33)   Compressing objects:  15% (5/33)   Compressing objects:  18% (6/33)   Compressing objects:  21% (7/33)   Compressing objects:  24% (8/33)   Compressing objects:  27% (9/33)   Compressing objects:  30% (10/33)   Compressing objects:  33% (11/33)   Compressing objects:  36% (12/33)   Compressing objects:  39% (13/33)   Compressing objects:  42% (14/33)   Compressing objects:  45% (15/33)   Compressing objects:  48% (16/33)   Compressing objects:  51% (17/33)   Compressing objects:  54% (18/33)   Compressing objects:  57% (19/33)   Compressing objects:  60% (20/33)   Compressing objects:  63% (21/33)   Compressing objects:  66% (22/33)   Compressing objects:  69% (23/33)   Compressing objects:  72% (24/33)   Compressing objects:  75% (25/33)   Compressing objects:  78% (26/33)   Compressing objects:  81% (27/33)   Compressing objects:  84% (28/33)   Compressing objects:  87% (29/33)   Compressing objects:  90% (30/33)   Compressing objects:  93% (31/33)   Compressing objects:  96% (32/33)   Compressing objects: 100% (33/33)   Compressing objects: 100% (33/33), done.
+Writing objects:   2% (1/42)   Writing objects:   4% (2/42)   Writing objects:   7% (3/42)   Writing objects:   9% (4/42)   Writing objects:  11% (5/42)   Writing objects:  14% (6/42)   Writing objects:  16% (7/42)   Writing objects:  19% (8/42)   Writing objects:  21% (9/42)   Writing objects:  23% (10/42)   Writing objects:  26% (11/42)   Writing objects:  28% (12/42)   Writing objects:  30% (13/42)   Writing objects:  33% (14/42)   Writing objects:  35% (15/42)   Writing objects:  38% (16/42)   Writing objects:  40% (17/42)   Writing objects:  42% (18/42)   Writing objects:  45% (19/42)   Writing objects:  47% (20/42)   Writing objects:  50% (21/42)   Writing objects:  52% (22/42)   Writing objects:  54% (23/42)   Writing objects:  57% (24/42)   Writing objects:  59% (25/42)   Writing objects:  61% (26/42)   Writing objects:  64% (27/42)   Writing objects:  66% (28/42)   Writing objects:  69% (29/42)   Writing objects:  71% (30/42)   Writing objects:  73% (31/42)   Writing objects:  76% (32/42)   Writing objects:  78% (33/42)   Writing objects:  80% (34/42)   Writing objects:  83% (35/42)   Writing objects:  85% (36/42)   Writing objects:  88% (37/42)   Writing objects:  90% (38/42)   Writing objects:  92% (39/42)   Writing objects:  97% (41/42)   Writing objects: 100% (42/42)   Writing objects: 100% (42/42), 17.27 KiB | 299.00 KiB/s, done.
+Total 42 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/mygeorgyboy/SbcRepTables
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ cd /Library/Frameworks/R.framework/Versions/3.5/Resources/library
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git init
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git initgit add .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
+
+
+git commit
+^Z
+[1]+  Stopped                 git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git add .[1Pinit
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git initadd .
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git add .[1Pinitadd .[1Pinitcd /Library/Frameworks/R.framework/Versions/3.5/Resources/library[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit commit
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ps -fea |git[K[K[Kgrep -i git
+  501 11567 11187   0  9:02PM ttys000    0:08.35 /Library/Developer/CommandLineTools/usr/bin/git add .
+  501 11625 11187   0  9:03PM ttys000    0:00.00 grep -i git
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ kill -9 11567
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ kill -9 11567ps -fea |grep -i git[10Pgit commit
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[1]+  Killed: 9               git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git commitkill -9 11567ps -fea |grep -i git[10Pgit commit[1Padd .
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git add .commitkill -9 11567
+bash: kill: (11567) - No such process
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ kill -9 11567[4Pgit add .commitkill -9 11567ps -fea |grep -i git
+  501 11659 11187   0  9:03PM ttys000    0:00.00 grep -i git
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ps -fea |grep -i git[7Pkill -9 11567[4Pgit add .commit[1Padd .commitkill -9 11567ps -fea |grep -i git[10Pgit commit[1Padd .[1Pinit
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git initps -fea |grep -i git[7Pkill -9 11567[4Pgit add .
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git add .[1Pinit
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git initadd .[1Pinitps -fea |grep -i git
+  501 11698 11187   0  9:04PM ttys000    0:00.00 grep -i git
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ps -fea |grep -i git[12Pgit initadd .
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[K[Kcd /Library/Frameworks/R.framework/Versions/3.5/Resources/library
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ghit[K[K[Kit init
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ git init[K[K[K[Kadd .
+fatal: Unable to create '/Library/Frameworks/R.framework/Versions/3.5/Resources/library/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ls -ltr
+total 0
+drwxr-xr-x  15 jramirez  admin   480 Apr 21 22:39 curl
+drwxr-xr-x  11 jramirez  admin   352 Apr 21 22:40 viridisLite
+drwxr-xr-x  11 jramirez  admin   352 Apr 21 22:43 rprojroot
+drwxr-xr-x  18 jramirez  admin   576 Apr 22 04:12 multcomp
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:01 mime
+drwxr-xr-x   9 jramirez  admin   288 Apr 22 23:01 assertthat
+drwxr-xr-x  16 jramirez  admin   512 Apr 22 23:01 crayon
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:02 pkgconfig
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:02 jsonlite
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:02 xtable
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:02 R6
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:03 magrittr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:04 digest
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:04 BH
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 dichromat
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:05 openssl
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 RColorBrewer
+drwxr-xr-x  17 jramirez  admin   544 Apr 22 23:05 markdown
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 labeling
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 gtable
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:06 lazyeval
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:06 base64enc
+drwxr-xr-x  16 jramirez  admin   512 Apr 22 23:06 colorspace
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:06 abind
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:08 backports
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 rstudioapi
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:08 bindr
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 plogr
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 mnormt
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:09 whisker
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:09 memoise
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:09 withr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:17 matrixStats
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:22 sandwich
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:24 bitops
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:25 hexbin
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:26 coda
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:31 uuid
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:33 xml2
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:35 lmtest
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:35 carData
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:35 rematch
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:36 estimability
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:36 minqa
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:42 nloptr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:43 RJSONIO
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:53 praise
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 00:06 zip
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 00:32 RJDBC
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 01:24 PKI
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 02:57 XLConnectJars
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 03:04 pwr
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 03:17 enc
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 10:42 cli
+drwxr-xr-x  10 jramirez  admin   320 Apr 23 10:42 hms
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:43 httr
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 10:44 htmltools
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:44 plyr
+drwxr-xr-x  15 jramirez  admin   480 Apr 23 10:45 checkmate
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:46 bindrcpp
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 10:55 gdata
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 10:55 lubridate
+drwxr-xr-x  10 jramirez  admin   320 Apr 23 10:55 caTools
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:56 selectr
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 11:10 testthat
+drwxr-xr-x  15 jramirez  admin   480 Apr 23 11:15 webshot
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 11:28 snakecase
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 12:01 rsconnect
+drwxr-xr-x  18 jramirez  admin   576 Apr 23 13:02 XLConnect
+drwxr-xr-x  14 jramirez  admin   448 Apr 23 17:33 htmlwidgets
+drwxr-xr-x  14 jramirez  admin   448 Apr 23 17:34 reshape2
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 17:34 promises
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 17:34 scales
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 17:42 rvest
+drwxr-xr-x  19 jramirez  admin   608 Apr 23 17:48 RcppEigen
+drwxr-xr-x  20 jramirez  admin   640 Apr 23 18:00 survey
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 00:33 tibble
+drwxr-xr-x  19 jramirez  admin   608 Apr 24 00:35 knitr
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 00:49 forcats
+drwxr-xr-x  12 jramirez  admin   384 Apr 24 00:49 cellranger
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 00:53 formattable
+drwxr-xr-x  17 jramirez  admin   544 Apr 24 01:15 lme4
+drwxr-xr-x  15 jramirez  admin   480 Apr 24 01:29 bookdown
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 02:12 rematch2
+drwxr-xr-x  14 jramirez  admin   448 Apr 24 04:45 readr
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 04:48 readxl
+drwxr-xr-x  10 jramirez  admin   320 Apr 24 05:02 arm
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 05:10 ggridges
+drwxrwxr-x  21 root      admin   672 Apr 24 13:47 translations
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 tcltk
+drwxrwxr-x  13 root      admin   416 Apr 24 13:47 nnet
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 graphics
+drwxrwxr-x   9 root      admin   288 Apr 24 13:47 datasets
+drwxrwxr-x  13 root      admin   416 Apr 24 13:47 class
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 base
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 utils
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 tools
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 stats4
+drwxrwxr-x  14 root      admin   448 Apr 24 13:47 stats
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 splines
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 parallel
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 methods
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 grid
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 grDevices
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 compiler
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 spatial
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 rpart
+drwxrwxr-x  17 root      admin   544 Apr 24 13:47 nlme
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 lattice
+drwxrwxr-x  14 root      admin   448 Apr 24 13:47 foreign
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 codetools
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 cluster
+drwxrwxr-x  14 root      admin   448 Apr 24 13:47 boot
+drwxrwxr-x  23 root      admin   736 Apr 24 13:47 Matrix
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 KernSmooth
+drwxr-xr-x  12 jramirez  admin   384 Apr 24 16:27 crosstalk
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 16:28 tidyselect
+drwxr-xr-x  14 jramirez  admin   448 Apr 24 16:29 DT
+drwxr-xr-x  12 jramirez  admin   384 Apr 24 16:35 dbplyr
+drwxr-xr-x  15 jramirez  admin   480 Apr 24 16:39 coin
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 16:55 bayesplot
+drwxr-xr-x  19 jramirez  admin   608 Apr 24 22:20 plotly
+drwxr-xr-x  12 jramirez  admin   384 Apr 25 02:28 tidyverse
+drwxr-xr-x  13 jramirez  admin   416 Apr 25 12:24 sourcetools
+drwxr-xr-x  15 jramirez  admin   480 Apr 30 10:11 MASS
+drwxr-xr-x  14 jramirez  admin   448 May  3 23:52 yaml
+drwxr-xr-x  11 jramirez  admin   352 May  4 01:12 DBI
+drwxr-xr-x  13 jramirez  admin   416 May  7 00:21 psych
+drwxr-xr-x  11 jramirez  admin   352 May  7 03:47 fansi
+drwxr-xr-x  14 jramirez  admin   448 May 11 00:43 stringr
+drwxr-xr-x  11 jramirez  admin   352 May 11 03:41 modelr
+drwxr-xr-x  15 jramirez  admin   480 May 16 04:44 processx
+drwxr-xr-x  13 jramirez  admin   416 May 16 23:41 callr
+drwxr-xr-x  16 jramirez  admin   512 May 17 23:46 shiny
+drwxr-xr-x  15 jramirez  admin   480 May 18 23:24 tidyr
+drwxr-xr-x  12 jramirez  admin   384 May 23 07:09 prediction
+drwxr-xr-x  13 jramirez  admin   416 May 25 09:15 utf8
+drwxr-xr-x  16 jramirez  admin   512 May 27 02:29 htmlTable
+drwxr-xr-x  22 jramirez  admin   704 May 27 03:56 openxlsx
+drwxr-xr-x  14 jramirez  admin   448 May 27 23:31 data.table
+drwxr-xr-x  14 jramirez  admin   448 May 29 23:26 rJava
+drwxr-xr-x  13 jramirez  admin   416 May 29 23:27 purrr
+drwxr-xr-x  11 jramirez  admin   352 May 30 23:23 rlang
+drwxr-xr-x  15 jramirez  admin   480 Jun  2 21:38 mvtnorm
+drwxr-xr-x  14 jramirez  admin   448 Jun  9 00:53 stringdist
+drwxr-xr-x  14 jramirez  admin   448 Jun  9 03:22 later
+drwxr-xr-x  11 jramirez  admin   352 Jun 10 08:59 highr
+drwxr-xr-x  14 jramirez  admin   448 Jun 12 00:08 rmarkdown
+drwxr-xr-x  12 jramirez  admin   384 Jun 13 06:40 munsell
+drwxr-xr-x  12 jramirez  admin   384 Jun 15 12:37 expss
+drwxr-xr-x  13 jramirez  admin   416 Jun 18 23:37 mgcv
+drwxr-xr-x  13 jramirez  admin   416 Jun 19 23:36 effects
+drwxr-xr-x  13 jramirez  admin   416 Jun 20 23:26 sjmisc
+drwxr-xr-x  15 jramirez  admin   480 Jun 23 04:08 reprex
+drwxr-xr-x  17 jramirez  admin   544 Jun 24 01:29 TMB
+drwxr-xr-x  11 jramirez  admin   352 Jun 24 01:54 clipr
+drwxr-xr-x  10 jramirez  admin   320 Jun 25 23:32 gmodels
+drwxrwxr-x  11 jramirez  admin   352 Jun 26 22:27 packrat
+drwxr-xr-x  12 jramirez  admin   384 Jun 26 23:25 styler
+drwxr-xr-x  12 jramirez  admin   384 Jun 26 23:34 gtools
+drwxr-xr-x  12 jramirez  admin   384 Jun 27 23:24 devtools
+drwxr-xr-x  14 jramirez  admin   448 Jun 27 23:32 haven
+drwxr-xr-x  15 jramirez  admin   480 Jun 30 21:41 dplyr
+drwxr-xr-x  13 jramirez  admin   416 Jul  4 14:23 httpuv
+drwxr-xr-x  18 jramirez  admin   576 Jul  4 14:47 glmmTMB
+drwxr-xr-x  14 jramirez  admin   448 Jul  4 15:02 ggplot2
+drwxr-xr-x  13 jramirez  admin   416 Jul  4 18:45 ggeffects
+drwxr-xr-x  12 jramirez  admin   384 Jul  7 08:39 xfun
+drwxr-xr-x  10 jramirez  admin   320 Jul  8 08:03 tinytex
+drwxr-xr-x  13 jramirez  admin   416 Jul  9 07:32 sjlabelled
+drwxrwxr-x  10 jramirez  admin   320 Jul  9 14:01 miniUI
+drwxr-xr-x  12 jramirez  admin   384 Jul 11 08:43 TH.data
+drwxr-xr-x  13 jramirez  admin   416 Jul 11 08:51 sjstats
+drwxr-xr-x  13 jramirez  admin   416 Jul 13 08:36 sjPlot
+drwxr-xr-x  15 jramirez  admin   480 Jul 14 09:02 survival
+drwxr-xr-x  10 jramirez  admin   320 Jul 15 07:50 pillar
+drwxr-xr-x  17 jramirez  admin   544 Jul 16 08:32 RCurl
+drwxrwxr-x  14 jramirez  admin   448 Jul 16 16:27 officer
+drwxr-xr-x  10 jramirez  admin   320 Jul 17 08:29 modeltools
+drwxr-xr-x  18 jramirez  admin   576 Jul 17 08:32 zoo
+drwxr-xr-x  11 jramirez  admin   352 Jul 18 08:36 evaluate
+drwxr-xr-x  14 jramirez  admin   448 Jul 18 08:44 broom
+drwxr-xr-x  15 jramirez  admin   480 Jul 18 09:04 git2r
+drwxr-xr-x  13 jramirez  admin   416 Jul 18 11:13 glue
+drwxr-xr-x  13 jramirez  admin   416 Jul 19 08:18 emmeans
+drwxrwxr-x  19 jramirez  admin   608 Jul 19 11:50 kableExtra
+drwxrwxr-x  39 jramirez  admin  1248 Jul 30 18:41 brew
+drwxrwxr-x  12 jramirez  admin   384 Jul 30 18:41 commonmark
+drwxrwxr-x  14 jramirez  admin   448 Jul 30 18:41 desc
+drwxrwxr-x  10 jramirez  admin   320 Jul 30 18:41 pkgbuild
+drwxrwxr-x  11 jramirez  admin   352 Jul 30 18:41 pkgload
+drwxrwxr-x  23 jramirez  admin   736 Jul 30 18:41 Rcpp
+drwxrwxr-x  15 jramirez  admin   480 Jul 30 18:41 stringi
+drwxrwxr-x  12 jramirez  admin   384 Jul 30 18:41 roxygen2
+drwxrwxr-x  10 jramirez  admin   320 Jul 30 20:19 RPushbullet
+drwxrwxr-x  15 jramirez  admin   480 Jul 30 20:19 broman
+drwxrwxr-x   9 jramirez  admin   288 Jul 30 21:04 SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ cd SbcRepTables/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls
+DESCRIPTION	INDEX		Meta		NAMESPACE	R		help		html
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ dit[K[K[Kgit -a[K[Kadd .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push[K[K[K[K[K[K[K[Kgit remote add origin https://github.com/username/reponame
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmygeorgtyb[K[K[K[K[K[K[K[K[K[Kmygeorgyboy/SbcT[KRepTables
+fatal: remote origin already exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables[7Pusername/reponame[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit[K[1Padd .[1Pinit
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git initremote add origin https://github.com/mygeorgyboy/SbcRepTables[7Pusername/reponame[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit[K[1Padd .[1Pinitadd .[1Pinitadd .commitremote add origin https://github.com/username/reponamemygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[K[K[K[K[Kadd .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/username/reponame'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+-rw-rw-r--  1 jramirez  admin    31 Jul 30 21:04 NAMESPACE
+-rw-rw-r--  1 jramirez  admin   434 Jul 30 21:04 DESCRIPTION
+drwxrwxr-x  5 jramirez  admin   160 Jul 30 21:04 R
+drwxrwxr-x  7 jramirez  admin   224 Jul 30 21:04 help
+drwxrwxr-x  4 jramirez  admin   128 Jul 30 21:04 html
+-rw-rw-r--  1 jramirez  admin  1035 Jul 30 21:04 INDEX
+drwxrwxr-x  8 jramirez  admin   256 Jul 30 21:04 Meta
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -la
+total 24
+drwxrwxr-x   10 jramirez  admin   320 Jul 30 21:14 .
+drwxrwxr-x  200 root      admin  6400 Jul 30 21:04 ..
+drwxr-xr-x   11 jramirez  admin   352 Jul 30 21:15 .git
+-rw-rw-r--    1 jramirez  admin   434 Jul 30 21:04 DESCRIPTION
+-rw-rw-r--    1 jramirez  admin  1035 Jul 30 21:04 INDEX
+drwxrwxr-x    8 jramirez  admin   256 Jul 30 21:04 Meta
+-rw-rw-r--    1 jramirez  admin    31 Jul 30 21:04 NAMESPACE
+drwxrwxr-x    5 jramirez  admin   160 Jul 30 21:04 R
+drwxrwxr-x    7 jramirez  admin   224 Jul 30 21:04 help
+drwxrwxr-x    4 jramirez  admin   128 Jul 30 21:04 html
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ rm .r [K[K[K-r .git
+override r--r--r--  jramirez/admin for .git/objects/3b/65e3cbb872050f5dbcfacd3f2057d52d28ba0e? yes
+override r--r--r--  jramirez/admin for .git/objects/d7/5f824ec6278db24891505b14ab3d915514dba7? y
+override r--r--r--  jramirez/admin for .git/objects/fb/468f7fecc42c24f74c368bc933f3a9adda512a? y
+override r--r--r--  jramirez/admin for .git/objects/ed/9f951a793fbbcc0362ff9c64ce0bba38ca063e? y
+override r--r--r--  jramirez/admin for .git/objects/7d/3d91525e2878573b75c2e9a294a536dea9b924? y
+override r--r--r--  jramirez/admin for .git/objects/1f/bb5d32e3413bf5aafd49393ef725704c941ca8? y
+override r--r--r--  jramirez/admin for .git/objects/80/9806c428dcad157e74a44ca6be574cb5986c7f? y
+override r--r--r--  jramirez/admin for .git/objects/19/65f4e214d77e5eb11c42ad22e95464ccfcff73? y
+override r--r--r--  jramirez/admin for .git/objects/75/dd9eddf067512880827994eef328e228461819? y
+override r--r--r--  jramirez/admin for .git/objects/86/e02e8ab234ca3cb71765a88218e11fa2040ec9? y
+override r--r--r--  jramirez/admin for .git/objects/5d/72ce6c6a29f449e0d29e2a60cf3256bd7c5be5? y
+override r--r--r--  jramirez/admin for .git/objects/96/61c27871f0bdeb5611a4b38194526d8e38dff0? y
+override r--r--r--  jramirez/admin for .git/objects/52/14205c28fa70fb45cbd19d1fbdb414a1bf96b0? y
+override r--r--r--  jramirez/admin for .git/objects/55/ab3931b4f7bf01835e71736f95a83b71faf972? y
+override r--r--r--  jramirez/admin for .git/objects/a7/0ac8c0113ca14807dba6508dc32e5bc7e1dfbb? y
+override r--r--r--  jramirez/admin for .git/objects/db/b110423c096631bab0376d7b0d6cee93819ef9? y
+override r--r--r--  jramirez/admin for .git/objects/b0/714d0815dcf773cdcda879902afa2a5942677f? y
+override r--r--r--  jramirez/admin for .git/objects/ea/125b84f0e04d81ae4f602a462ac2389eea0050? y
+override r--r--r--  jramirez/admin for .git/objects/f1/0f5ea669d3de9e84a2ce5bf5752546b99cd02d? y
+override r--r--r--  jramirez/admin for .git/objects/48/a2fdfff74b87e16f1fe73b65922adf7a90bf8e? y
+override r--r--r--  jramirez/admin for .git/objects/4f/c3178d95ebcabb454d2782ef931500908529ea? y
+override r--r--r--  jramirez/admin for .git/objects/76/52f6f9f117d33b04916ae5460e38dc193aca9b? yy
+override r--r--r--  jramirez/admin for .git/objects/13/3e335c79c58af0c59945e58d1ac98aa207278c? ^C
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ rm -r .git;9D[K[K[K[1@s[1@u[1@d[1@i[1@ 
+bash: sudi: command not found
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ sudi rm -r .git[1P[1@o
+Password:
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ sudo rm -r .giti[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[4Pls -latr[1Parm -r .git[5@sudi [C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksud[K[K[Kgit init
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables
+fatal: remote origin already exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit[K[1Padd .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit[K
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit[Kgit commit[1Padd .push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit[K
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commitpush -u origin mastercommit[K[1Padd .push -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[40Ppush -u origin masterremote add origin https://github.com/mygeorgyboy/SbcRepTables[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit[K[1Padd .[1Pinitsudo rm -r .git
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboy/SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ pwd
+/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+-rw-rw-r--  1 jramirez  admin    31 Jul 30 21:04 NAMESPACE
+-rw-rw-r--  1 jramirez  admin   434 Jul 30 21:04 DESCRIPTION
+drwxrwxr-x  5 jramirez  admin   160 Jul 30 21:04 R
+drwxrwxr-x  7 jramirez  admin   224 Jul 30 21:04 help
+drwxrwxr-x  4 jramirez  admin   128 Jul 30 21:04 html
+-rw-rw-r--  1 jramirez  admin  1035 Jul 30 21:04 INDEX
+drwxrwxr-x  8 jramirez  admin   256 Jul 30 21:04 Meta
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Reinitialized existing Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/mygeorgyboyu[K/SbcRepTables
+fatal: remote origin already exists.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ rm [K[K[Ksudo rm -r .git
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Initialized empty Git repository in /Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTables/.git/
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+[?2004hAborting commit due to empty commit message.
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin https://github.com/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/mygeorgyboy/SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m "initial commit"
+[master (root-commit) cb7398c] initial commit
+ 19 files changed, 187 insertions(+)
+ create mode 100644 DESCRIPTION
+ create mode 100644 INDEX
+ create mode 100644 Meta/Rd.rds
+ create mode 100644 Meta/features.rds
+ create mode 100644 Meta/hsearch.rds
+ create mode 100644 Meta/links.rds
+ create mode 100644 Meta/nsInfo.rds
+ create mode 100644 Meta/package.rds
+ create mode 100644 NAMESPACE
+ create mode 100644 R/SbcRepTables
+ create mode 100644 R/SbcRepTables.rdb
+ create mode 100644 R/SbcRepTables.rdx
+ create mode 100644 help/AnIndex
+ create mode 100644 help/SbcRepTables.rdb
+ create mode 100644 help/SbcRepTables.rdx
+ create mode 100644 help/aliases.rds
+ create mode 100644 help/paths.rds
+ create mode 100644 html/00Index.html
+ create mode 100644 html/R.css
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push origin master
+Counting objects: 25, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   4% (1/25)   Writing objects:   8% (2/25)   Writing objects:  12% (3/25)   Writing objects:  20% (5/25)   Writing objects:  24% (6/25)   Writing objects:  28% (7/25)   Writing objects:  32% (8/25)   Writing objects:  36% (9/25)   Writing objects:  40% (10/25)   Writing objects:  44% (11/25)   Writing objects:  48% (12/25)   Writing objects:  52% (13/25)   Writing objects:  56% (14/25)   Writing objects:  60% (15/25)   Writing objects:  64% (16/25)   Writing objects:  68% (17/25)   Writing objects:  72% (18/25)   Writing objects:  76% (19/25)   Writing objects:  80% (20/25)   Writing objects:  84% (21/25)   Writing objects:  88% (22/25)   Writing objects:  92% (23/25)   Writing objects:  96% (24/25)   Writing objects: 100% (25/25)   Writing objects: 100% (25/25), 59.70 KiB | 1.61 MiB/s, done.
+Total 25 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/mygeorgyboy/SbcRepTables
+ * [new branch]      master -> master
+]0;~/Documents/Estudios/paquetes/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ git add .ps -fea |grep -i git[11Pgit add .[Kgit add .
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add .ps -fea |grep -i git[12Pgit initadd .[1Pinitps -fea |grep -i git[7Pkill -9 11567[4Pgit add .commitkill -9 11567[3Pgit commit
+[?2004hAborting commit due to empty commit message.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit[1Padd .ps -fea |grep -i git[12Pgit initadd .[1Pinitps -fea |grep -i git[7Pkill -9 11567[4Pgit add .commit[K[K[K[K[K[K[K[K[K[Kgit commit -m "initial commit"
+[master 219934c] initial commit
+ 14 files changed, 948 insertions(+), 73 deletions(-)
+ rewrite .Rproj.user/71697F63/console06/INDEX001 (100%)
+ delete mode 100644 .Rproj.user/71697F63/sources/s-8385F22F/8CA89101
+ delete mode 100644 .Rproj.user/71697F63/sources/s-8385F22F/8CA89101-contents
+ delete mode 100644 .Rproj.user/71697F63/sources/s-8385F22F/lock_file
+ create mode 100644 .gitignore
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ 
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m "initial commit"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323[m
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323.env[m
+	[31mmodified:   .Rproj.user/71697F63/console06/INDEX001[m
+
+no changes added to commit
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m "initial commit"[K -m "initial commit"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323[m
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323.env[m
+	[31mmodified:   .Rproj.user/71697F63/console06/INDEX001[m
+
+no changes added to commit
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push origin master
+To https://github.com/mygeorgyboy/SbcRepTables
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add *
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323[m
+	[31mmodified:   .Rproj.user/71697F63/console06/E801B323.env[m
+	[31mmodified:   .Rproj.user/71697F63/console06/INDEX001[m
+
+no changes added to commit
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+To https://github.com/mygeorgyboy/SbcRepTables
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+drwxr-xr-x  3 jramirez  staff   96 Jul 30 18:43 R
+-rw-r--r--  1 jramirez  staff   31 Jul 30 18:43 NAMESPACE
+-rw-r--r--  1 jramirez  staff  386 Jul 30 18:57 DESCRIPTION
+drwxr-xr-x  5 jramirez  staff  160 Jul 30 18:57 man
+-rw-r--r--  1 jramirez  staff  356 Jul 30 21:39 SbcRepTables.Rproj
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -la
+total 56
+drwxr-xr-x  13 jramirez  staff   416 Jul 30 21:39 .
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 20:34 ..
+-rw-r--r--   1 jramirez  staff  2586 Jul 30 21:31 .RData
+-rw-r--r--   1 jramirez  staff    28 Jul 30 18:43 .Rbuildignore
+-rw-r--r--   1 jramirez  staff  1514 Jul 30 21:39 .Rhistory
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 18:43 .Rproj.user
+drwxr-xr-x  12 jramirez  staff   384 Jul 30 21:39 .git
+-rw-r--r--   1 jramirez  staff    40 Jul 30 20:18 .gitignore
+-rw-r--r--   1 jramirez  staff   386 Jul 30 18:57 DESCRIPTION
+-rw-r--r--   1 jramirez  staff    31 Jul 30 18:43 NAMESPACE
+drwxr-xr-x   3 jramirez  staff    96 Jul 30 18:43 R
+-rw-r--r--   1 jramirez  staff   356 Jul 30 21:39 SbcRepTables.Rproj
+drwxr-xr-x   5 jramirez  staff   160 Jul 30 18:57 man
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ r[Ksudo rm -r .git
+Password:
+pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Reinitialized existing Git repository in /Users/jramirez/Documents/Estudios/paquetes/SbcRepTables/.git/
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin git@github.com:hadley/r-pkgs.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/mygeorgyboy/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+[m]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config --global user.name "YOUR FULL NAME"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KJorge Ramírez"
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config --global user.email "YOUR EMAIL ADDRESS"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"m"y"g"e"o"r"g"y"b"o"y"@"g"m"a"i"l"."c"o"m"
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config --global --list
+[?1h=user.email=mygeorgyboy@gmail.com[m
+user.name=Jorge Ramírez[m
+[K[?1l>]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config --global --listuser.email "mygeorgyboy@gmail.com"[1P.com"[1P.com"[1P.com"[1P.com"[1P.com"h.com"o.com"t.com"m.com"a.com"i.com"l.com"
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git config --global user.email "mygeorgyboy@hotmail.com"--list[K
+[?1h=user.email=mygeorgyboy@hotmail.com[m
+user.name=Jorge Ramírez[m
+[K[?1l>]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ file.exists("~/.ssh/id_rsa.pub")
+bash: syntax error near unexpected token `"~/.ssh/id_rsa.pub"'
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -la
+total 56
+drwxr-xr-x  13 jramirez  staff   416 Jul 30 21:40 .
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 20:34 ..
+-rw-r--r--   1 jramirez  staff  2586 Jul 30 21:31 .RData
+-rw-r--r--   1 jramirez  staff    28 Jul 30 18:43 .Rbuildignore
+-rw-r--r--   1 jramirez  staff  1518 Jul 30 21:40 .Rhistory
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 18:43 .Rproj.user
+drwxr-xr-x  10 jramirez  staff   320 Jul 30 21:49 .git
+-rw-r--r--   1 jramirez  staff    40 Jul 30 20:18 .gitignore
+-rw-r--r--   1 jramirez  staff   386 Jul 30 18:57 DESCRIPTION
+-rw-r--r--   1 jramirez  staff    31 Jul 30 18:43 NAMESPACE
+drwxr-xr-x   3 jramirez  staff    96 Jul 30 18:43 R
+-rw-r--r--   1 jramirez  staff   356 Jul 30 21:43 SbcRepTables.Rproj
+drwxr-xr-x   5 jramirez  staff   160 Jul 30 18:57 man
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ r,m[K[K[Krm -r [K[K[K[K[K[Ksudo m[Krm .r [K[K[K-r .git
+Password:
+git init
+Reinitialized existing Git repository in /Users/jramirez/Documents/Estudios/paquetes/SbcRepTables/.git/
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'origin'
+[m]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin git@github.com:hadley/r-pkgs.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/mygeorgyboy/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+[m]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+drwxr-xr-x  3 jramirez  staff   96 Jul 30 18:43 R
+-rw-r--r--  1 jramirez  staff   31 Jul 30 18:43 NAMESPACE
+-rw-r--r--  1 jramirez  staff  386 Jul 30 18:57 DESCRIPTION
+drwxr-xr-x  5 jramirez  staff  160 Jul 30 18:57 man
+-rw-r--r--  1 jramirez  staff  356 Jul 30 21:50 SbcRepTables.Rproj
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ .[K.[Kgit
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ gitls -ltr[4Ppwdgit push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd .
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit
+hint: Waiting for your editor to close the file... [?2004h[KAborting commit due to empty commit message.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit[1Padd .[Kls -ltr[4Ppwdgit push -u origin master
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'https://github.com/mygeorgyboy/SbcRepTables'
+[m]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit[K install_github(
+bash: syntax error near unexpected token `('
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ install_github(
+bash: syntax error near unexpected token `newline'
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ install_github()
+> 
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ pwd
+/Users/jramirez/Documents/Estudios/paquetes/SbcRepTables
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+drwxr-xr-x  3 jramirez  staff   96 Jul 30 18:43 R
+-rw-r--r--  1 jramirez  staff   31 Jul 30 18:43 NAMESPACE
+-rw-r--r--  1 jramirez  staff  386 Jul 30 18:57 DESCRIPTION
+drwxr-xr-x  5 jramirez  staff  160 Jul 30 18:57 man
+-rw-r--r--  1 jramirez  staff  356 Jul 30 21:50 SbcRepTables.Rproj
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls[K[Kls -la
+total 56
+drwxr-xr-x  13 jramirez  staff   416 Jul 30 21:50 .
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 20:34 ..
+-rw-r--r--   1 jramirez  staff  2586 Jul 30 21:31 .RData
+-rw-r--r--   1 jramirez  staff    28 Jul 30 18:43 .Rbuildignore
+-rw-r--r--   1 jramirez  staff  1551 Jul 30 21:50 .Rhistory
+drwxr-xr-x   4 jramirez  staff   128 Jul 30 18:43 .Rproj.user
+drwxr-xr-x  12 jramirez  staff   384 Jul 30 21:57 .git
+-rw-r--r--   1 jramirez  staff    40 Jul 30 20:18 .gitignore
+-rw-r--r--   1 jramirez  staff   386 Jul 30 18:57 DESCRIPTION
+-rw-r--r--   1 jramirez  staff    31 Jul 30 18:43 NAMESPACE
+drwxr-xr-x   3 jramirez  staff    96 Jul 30 18:43 R
+-rw-r--r--   1 jramirez  staff   356 Jul 30 21:50 SbcRepTables.Rproj
+drwxr-xr-x   5 jramirez  staff   160 Jul 30 18:57 man
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ rm[K[Ksudo rm -r .git
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git init
+Initialized empty Git repository in /Users/jramirez/Documents/Estudios/paquetes/SbcRepTables/.git/
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git remote add origin git@github.com:yourusername/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.git[1P/packagename.gitm/packagename.gity/packagename.gitg/packagename.gite/packagename.gito/packagename.gitr/packagename.gitg/packagename.gity/packagename.gitb/packagename.gito/packagename.gity/packagename.git[C[C[C[C[C[C[C[C[C[C[C[C[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.gitS.gitb.git .gitc.git[1P.git[1P.gitc.gitR.gite.gitp.gitT.gita.gitb.gitl.gite.gits.git
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ vi README.md
+[?2004h]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add *
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'
+[master (root-commit) aae12a7] initial commit
+ 8 files changed, 388 insertions(+)
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/sbc_functions.R
+ create mode 100644 README.md
+ create mode 100644 SbcRepTables.Rproj
+ create mode 100644 man/sbc_add_col_sum.Rd
+ create mode 100644 man/sbc_add_row_sum.Rd
+ create mode 100644 man/sbc_get_col_sum.Rd
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+Enter passphrase for key '/Users/jramirez/.ssh/id_rsa': 
+Enumerating objects: 12, done.
+Counting objects:   8% (1/12)   Counting objects:  16% (2/12)   Counting objects:  25% (3/12)   Counting objects:  33% (4/12)   Counting objects:  41% (5/12)   Counting objects:  50% (6/12)   Counting objects:  58% (7/12)   Counting objects:  66% (8/12)   Counting objects:  75% (9/12)   Counting objects:  83% (10/12)   Counting objects:  91% (11/12)   Counting objects: 100% (12/12)   Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 5.12 KiB | 476.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:mygeorgyboy/SbcRepTables.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Estudios/paquetes/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+Enter passphrase for key '/Users/jramirez/.ssh/id_rsa': 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit -m 'initial commit'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+
+nothing added to commit but untracked files present
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'[5Ppush -u origin master
+Enter passphrase for key '/Users/jramirez/.ssh/id_rsa': 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit -m 'initial commit'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+	[31mman/sbc_get_col_sum_row.Rd[m
+
+nothing added to commit but untracked files present
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'[5Ppush -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit -m 'initial commit'[5Ppush -u origin mastercommit -m 'initial commit'add *[K
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add *push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin masteradd *[Kpush -u origin mastercommit -m 'initial commit'
+[master 00c0ed3] initial commit
+ 1 file changed, 23 insertions(+)
+ create mode 100644 man/sbc_get_col_sum_row.Rd
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'[5Ppush -u origin master
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)   Counting objects:  33% (2/6)   Counting objects:  50% (3/6)   Counting objects:  66% (4/6)   Counting objects:  83% (5/6)   Counting objects: 100% (6/6)   Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 690 bytes | 690.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:mygeorgyboy/SbcRepTables.git
+   aae12a7..00c0ed3  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Estudios/paquetes/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin mastercommit -m 'initial commit'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   SbcRepTables.Rproj[m
+
+Untracked files:
+	[31m.Rbuildignore[m
+	[31m.gitignore[m
+
+no changes added to commit
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'[5Ppush -u origin mastercommit -m 'initial commit'add *[K
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git add *commit -m 'initial commit'
+[master f1a3cca] initial commit
+ 1 file changed, 1 insertion(+)
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git commit -m 'initial commit'add *[Kcommit -m 'initial commit'[5Ppush -u origin master
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:mygeorgyboy/SbcRepTables.git
+   00c0ed3..f1a3cca  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Documents/Estudios/paquetes/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+[KMBP-de-Jorge-3:SbcRepTables jramirez$ cd /Library/Frameworks/R.framework/Versions/3.5/Resources/library
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ ls -ltr
+total 0
+drwxr-xr-x  15 jramirez  admin   480 Apr 21 22:39 curl
+drwxr-xr-x  11 jramirez  admin   352 Apr 21 22:40 viridisLite
+drwxr-xr-x  11 jramirez  admin   352 Apr 21 22:43 rprojroot
+drwxr-xr-x  18 jramirez  admin   576 Apr 22 04:12 multcomp
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:01 mime
+drwxr-xr-x   9 jramirez  admin   288 Apr 22 23:01 assertthat
+drwxr-xr-x  16 jramirez  admin   512 Apr 22 23:01 crayon
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:02 pkgconfig
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:02 jsonlite
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:02 xtable
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:02 R6
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:03 magrittr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:04 digest
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:04 BH
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 dichromat
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:05 openssl
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 RColorBrewer
+drwxr-xr-x  17 jramirez  admin   544 Apr 22 23:05 markdown
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 labeling
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:05 gtable
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:06 lazyeval
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:06 base64enc
+drwxr-xr-x  16 jramirez  admin   512 Apr 22 23:06 colorspace
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:06 abind
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:08 backports
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 rstudioapi
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:08 bindr
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 plogr
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:08 mnormt
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:09 whisker
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:09 memoise
+drwxr-xr-x  11 jramirez  admin   352 Apr 22 23:09 withr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:22 sandwich
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:24 bitops
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:25 hexbin
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:26 coda
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:27 rappdirs
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:31 uuid
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:33 xml2
+drwxr-xr-x  14 jramirez  admin   448 Apr 22 23:35 lmtest
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:35 carData
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:35 rematch
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:36 estimability
+drwxr-xr-x  10 jramirez  admin   320 Apr 22 23:36 minqa
+drwxr-xr-x  12 jramirez  admin   384 Apr 22 23:42 nloptr
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:43 RJSONIO
+drwxr-xr-x  13 jramirez  admin   416 Apr 22 23:53 praise
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 00:06 zip
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 00:32 RJDBC
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 01:24 PKI
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 02:12 config
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 02:57 XLConnectJars
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 03:00 RODBC
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 03:04 pwr
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 03:17 enc
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 10:42 cli
+drwxr-xr-x  10 jramirez  admin   320 Apr 23 10:42 hms
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:43 httr
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 10:44 htmltools
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:44 plyr
+drwxr-xr-x  15 jramirez  admin   480 Apr 23 10:45 checkmate
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:46 bindrcpp
+drwxr-xr-x  10 jramirez  admin   320 Apr 23 10:46 blob
+drwxr-xr-x  17 jramirez  admin   544 Apr 23 10:48 bit64
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 10:55 gdata
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 10:55 lubridate
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 10:56 selectr
+drwxr-xr-x  16 jramirez  admin   512 Apr 23 11:10 testthat
+drwxr-xr-x  15 jramirez  admin   480 Apr 23 11:15 webshot
+drwxr-xr-x  14 jramirez  admin   448 Apr 23 11:16 arules
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 11:28 snakecase
+drwxr-xr-x  11 jramirez  admin   352 Apr 23 12:01 rsconnect
+drwxr-xr-x  18 jramirez  admin   576 Apr 23 13:02 XLConnect
+drwxr-xr-x  14 jramirez  admin   448 Apr 23 17:33 htmlwidgets
+drwxr-xr-x  14 jramirez  admin   448 Apr 23 17:34 reshape2
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 17:34 promises
+drwxr-xr-x  12 jramirez  admin   384 Apr 23 17:34 scales
+drwxr-xr-x  13 jramirez  admin   416 Apr 23 17:42 rvest
+drwxr-xr-x  19 jramirez  admin   608 Apr 23 17:48 RcppEigen
+drwxr-xr-x  20 jramirez  admin   640 Apr 23 18:00 survey
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 00:33 tibble
+drwxr-xr-x  19 jramirez  admin   608 Apr 24 00:35 knitr
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 00:49 forcats
+drwxr-xr-x  12 jramirez  admin   384 Apr 24 00:49 cellranger
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 00:53 formattable
+drwxr-xr-x  17 jramirez  admin   544 Apr 24 01:15 lme4
+drwxr-xr-x  15 jramirez  admin   480 Apr 24 01:29 bookdown
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 02:12 rematch2
+drwxr-xr-x  14 jramirez  admin   448 Apr 24 04:45 readr
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 04:48 readxl
+drwxr-xr-x  10 jramirez  admin   320 Apr 24 05:02 arm
+drwxr-xr-x  13 jramirez  admin   416 Apr 24 05:10 ggridges
+drwxrwxr-x  21 root      admin   672 Apr 24 13:47 translations
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 tcltk
+drwxrwxr-x  13 root      admin   416 Apr 24 13:47 nnet
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 graphics
+drwxrwxr-x   9 root      admin   288 Apr 24 13:47 datasets
+drwxrwxr-x  13 root      admin   416 Apr 24 13:47 class
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 base
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 utils
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 tools
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 stats4
+drwxrwxr-x  14 root      admin   448 Apr 24 13:47 stats
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 splines
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 parallel
+drwxrwxr-x  11 root      admin   352 Apr 24 13:47 methods
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 grid
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 grDevices
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 compiler
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 spatial
+drwxrwxr-x  15 root      admin   480 Apr 24 13:47 rpart
+drwxrwxr-x  17 root      admin   544 Apr 24 13:47 nlme
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 lattice
+drwxrwxr-x  10 root      admin   320 Apr 24 13:47 codetools
+drwxrwxr-x  16 root      admin   512 Apr 24 13:47 cluster
+drwxrwxr-x  14 root      admin   448 Apr 24 13:47 boot
+drwxrwxr-x  23 root      admin   736 Apr 24 13:47 Matrix
+drwxrwxr-x  12 root      admin   384 Apr 24 13:47 KernSmooth
+drwxr-xr-x  12 jramirez  admin   384 Apr 24 16:27 crosstalk
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 16:28 tidyselect
+drwxr-xr-x  14 jramirez  admin   448 Apr 24 16:29 DT
+drwxr-xr-x  15 jramirez  admin   480 Apr 24 16:39 coin
+drwxr-xr-x  11 jramirez  admin   352 Apr 24 16:55 bayesplot
+drwxr-xr-x  12 jramirez  admin   384 Apr 25 02:28 tidyverse
+drwxr-xr-x  13 jramirez  admin   416 Apr 25 12:24 sourcetools
+drwxr-xr-x  15 jramirez  admin   480 Apr 30 10:11 MASS
+drwxr-xr-x  11 jramirez  admin   352 May  4 01:12 DBI
+drwxr-xr-x  13 jramirez  admin   416 May  7 00:21 psych
+drwxr-xr-x  11 jramirez  admin   352 May  7 03:47 fansi
+drwxr-xr-x  14 jramirez  admin   448 May 11 00:43 stringr
+drwxr-xr-x  11 jramirez  admin   352 May 11 03:41 modelr
+drwxr-xr-x  15 jramirez  admin   480 May 16 04:44 processx
+drwxr-xr-x  13 jramirez  admin   416 May 16 23:41 callr
+drwxr-xr-x  16 jramirez  admin   512 May 17 23:46 shiny
+drwxr-xr-x  15 jramirez  admin   480 May 18 23:24 tidyr
+drwxr-xr-x  12 jramirez  admin   384 May 23 07:09 prediction
+drwxr-xr-x  13 jramirez  admin   416 May 25 09:15 utf8
+drwxr-xr-x  17 jramirez  admin   544 May 26 08:36 sparklyr
+drwxr-xr-x  16 jramirez  admin   512 May 27 02:29 htmlTable
+drwxr-xr-x  22 jramirez  admin   704 May 27 03:56 openxlsx
+drwxr-xr-x  14 jramirez  admin   448 May 27 23:31 data.table
+drwxr-xr-x  14 jramirez  admin   448 May 29 23:21 bit
+drwxr-xr-x  14 jramirez  admin   448 May 29 23:26 rJava
+drwxr-xr-x  13 jramirez  admin   416 May 29 23:27 purrr
+drwxr-xr-x  11 jramirez  admin   352 May 30 23:23 rlang
+drwxr-xr-x  15 jramirez  admin   480 Jun  2 21:38 mvtnorm
+drwxr-xr-x  11 jramirez  admin   352 Jun  6 10:33 ibmdbR
+drwxr-xr-x  14 jramirez  admin   448 Jun  9 00:53 stringdist
+drwxr-xr-x  14 jramirez  admin   448 Jun  9 03:22 later
+drwxr-xr-x  14 jramirez  admin   448 Jun  9 23:26 odbc
+drwxr-xr-x  11 jramirez  admin   352 Jun 10 08:59 highr
+drwxr-xr-x  14 jramirez  admin   448 Jun 12 00:08 rmarkdown
+drwxr-xr-x  12 jramirez  admin   384 Jun 13 06:40 munsell
+drwxr-xr-x  12 jramirez  admin   384 Jun 15 12:37 expss
+drwxr-xr-x  13 jramirez  admin   416 Jun 18 23:37 mgcv
+drwxr-xr-x  13 jramirez  admin   416 Jun 19 23:36 effects
+drwxr-xr-x  13 jramirez  admin   416 Jun 20 23:26 sjmisc
+drwxr-xr-x  15 jramirez  admin   480 Jun 23 04:08 reprex
+drwxr-xr-x  17 jramirez  admin   544 Jun 24 01:29 TMB
+drwxr-xr-x  11 jramirez  admin   352 Jun 24 01:54 clipr
+drwxr-xr-x  10 jramirez  admin   320 Jun 25 23:32 gmodels
+drwxrwxr-x  11 jramirez  admin   352 Jun 26 22:27 packrat
+drwxr-xr-x  12 jramirez  admin   384 Jun 26 23:25 styler
+drwxr-xr-x  12 jramirez  admin   384 Jun 26 23:34 gtools
+drwxr-xr-x  14 jramirez  admin   448 Jun 27 23:32 haven
+drwxr-xr-x  15 jramirez  admin   480 Jun 30 21:41 dplyr
+drwxr-xr-x  18 jramirez  admin   576 Jul  4 14:47 glmmTMB
+drwxr-xr-x  14 jramirez  admin   448 Jul  4 15:02 ggplot2
+drwxr-xr-x  13 jramirez  admin   416 Jul  4 18:45 ggeffects
+drwxr-xr-x  12 jramirez  admin   384 Jul  7 08:39 xfun
+drwxr-xr-x  10 jramirez  admin   320 Jul  8 08:03 tinytex
+drwxr-xr-x  13 jramirez  admin   416 Jul  9 07:32 sjlabelled
+drwxrwxr-x  10 jramirez  admin   320 Jul  9 14:01 miniUI
+drwxr-xr-x  12 jramirez  admin   384 Jul 11 08:43 TH.data
+drwxr-xr-x  13 jramirez  admin   416 Jul 11 08:51 sjstats
+drwxr-xr-x  13 jramirez  admin   416 Jul 13 08:36 sjPlot
+drwxr-xr-x  15 jramirez  admin   480 Jul 14 09:02 survival
+drwxr-xr-x  10 jramirez  admin   320 Jul 15 07:50 pillar
+drwxr-xr-x  17 jramirez  admin   544 Jul 16 08:32 RCurl
+drwxr-xr-x  10 jramirez  admin   320 Jul 17 08:29 modeltools
+drwxr-xr-x  18 jramirez  admin   576 Jul 17 08:32 zoo
+drwxr-xr-x  11 jramirez  admin   352 Jul 18 08:36 evaluate
+drwxr-xr-x  14 jramirez  admin   448 Jul 18 08:44 broom
+drwxr-xr-x  15 jramirez  admin   480 Jul 18 09:04 git2r
+drwxr-xr-x  13 jramirez  admin   416 Jul 19 08:18 emmeans
+drwxrwxr-x  19 jramirez  admin   608 Jul 19 11:50 kableExtra
+drwxr-xr-x  13 jramirez  admin   416 Jul 20 08:31 httpuv
+drwxr-xr-x  13 jramirez  admin   416 Jul 21 09:10 foreign
+drwxr-xr-x  10 jramirez  admin   320 Jul 21 09:50 caTools
+drwxr-xr-x  13 jramirez  admin   416 Jul 24 10:31 matrixStats
+drwxr-xr-x  14 jramirez  admin   448 Jul 24 11:20 officer
+drwxr-xr-x  15 jramirez  admin   480 Jul 26 09:37 yaml
+drwxr-xr-x  12 jramirez  admin   384 Jul 26 10:29 dbplyr
+drwxr-xr-x  13 jramirez  admin   416 Jul 27 09:31 rpart.plot
+drwxrwxr-x  39 jramirez  admin  1248 Jul 30 18:41 brew
+drwxrwxr-x  12 jramirez  admin   384 Jul 30 18:41 commonmark
+drwxrwxr-x  14 jramirez  admin   448 Jul 30 18:41 desc
+drwxrwxr-x  10 jramirez  admin   320 Jul 30 18:41 pkgbuild
+drwxrwxr-x  11 jramirez  admin   352 Jul 30 18:41 pkgload
+drwxrwxr-x  23 jramirez  admin   736 Jul 30 18:41 Rcpp
+drwxrwxr-x  15 jramirez  admin   480 Jul 30 18:41 stringi
+drwxrwxr-x  12 jramirez  admin   384 Jul 30 18:41 roxygen2
+drwxrwxr-x  10 jramirez  admin   320 Jul 30 20:19 RPushbullet
+drwxrwxr-x  15 jramirez  admin   480 Jul 30 20:19 broman
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:22 clisymbols
+drwxrwxr-x  10 jramirez  admin   320 Jul 30 22:22 ini
+drwxrwxr-x  12 jramirez  admin   384 Jul 30 22:22 gh
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:22 glue
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:22 usethis
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:22 prettyunits
+drwxrwxr-x  14 jramirez  admin   448 Jul 30 22:22 rcmdcheck
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:22 devtools
+drwxrwxr-x  13 jramirez  admin   416 Jul 30 22:40 fs
+drwxrwxr-x  20 jramirez  admin   640 Jul 30 22:40 plotly
+drwxrwxr-x   9 jramirez  admin   288 Aug  7 16:22 SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/libraryMBP-de-Jorge-3:library jramirez$ cd SbcRepTables
+]0;/Library/Frameworks/R.framework/Versions/3.5/Resources/library/SbcRepTablesMBP-de-Jorge-3:SbcRepTables jramirez$ ls -ltr
+total 24
+-rw-rw-r--  1 jramirez  admin    31 Aug  7 16:22 NAMESPACE
+-rw-rw-r--  1 jramirez  admin   434 Aug  7 16:22 DESCRIPTION
+drwxrwxr-x  5 jramirez  admin   160 Aug  7 16:22 R
+drwxrwxr-x  7 jramirez  admin   224 Aug  7 16:22 help
+drwxrwxr-x  4 jramirez  admin   128 Aug  7 16:22 html
+-rw-rw-r--  1 jramirez  admin  1089 Aug  7 16:22 INDEX
+drwxrwxr-x  8 jramirez  admin   256 Aug  7 16:22 Meta
+]0;~/Documents/Estudios/paquetes/SbcRepTables[?1034hMBP-de-Jorge-3:SbcRepTables jramirez$ 
