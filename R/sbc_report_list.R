@@ -10,6 +10,13 @@ sbc_report_list <- function(x,
     total_first <- T
 
     groups <- groups %>% unique()
+
+    for(i in seq_along(groups)){
+        grp <-groups[i]
+        assert_that(x %>% filter(is.na(!!sym(grp))) %>% nrow() ==0,
+                    msg =  paste("La columna '",grp,"' tiene valores nulos",sep = ""))
+    }
+
     # Columna que liga a las respuestas multiples
     id_column = names(x)[1]
     sort_column_name <- "Total"

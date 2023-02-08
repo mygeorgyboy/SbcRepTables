@@ -4,9 +4,11 @@ output:
   word_document: default
 ---
 
+Nueva version: feb, 2023
+
 # DataBook for R
 
-## Package proposal
+## Package proposal 
 
 This package is designed to solve multiple problems that occur when working with heterogeneous teams in marketing research projects.
 

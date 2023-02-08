@@ -25,6 +25,12 @@ sbc_report_list_v2 <- function(x,
 
 
         groups <- groups %>% unique()
+        for(i in seq_along(groups)){
+            grp <-groups[i]
+            assert_that(x %>% filter(is.na(!!sym(grp))) %>% nrow() ==0,
+                        msg =  paste("La columna '",grp,"' tiene valores nulos",sep = ""))
+        }
+
         # Columna que liga a las respuestas multiples
         # En éste caso es la primera columna
         id_column = names(x)[1]
