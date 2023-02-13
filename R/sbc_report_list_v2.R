@@ -31,6 +31,20 @@ sbc_report_list_v2 <- function(x,
                         msg =  paste("La columna '",grp,"' tiene valores nulos",sep = ""))
         }
 
+        # Verifica que se pueda ejecutar en paralelo
+        if (parallel::detectCores() < 4) {
+            print("No se detectaron suficientes procesadores, se usara la version simple")
+            return(sbc_report_list(x,
+                meta_data,
+                groups,
+                MARGIN = MARGIN,
+                show_global_count = show_global_count,
+                show_section_count = show_section_count,
+                show_section_percentage = show_section_percentage
+            ))
+        }
+
+
         # Columna que liga a las respuestas multiples
         # En éste caso es la primera columna
         id_column = names(x)[1]
