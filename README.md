@@ -6,7 +6,11 @@ output:
 
 Nueva version: feb 13, 2023
 
+Aqui se agregan mas lineas
+
+
 # DataBook for R
+
 
 ## Package proposal 
 
