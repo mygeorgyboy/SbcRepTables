@@ -30,7 +30,8 @@ sbc_report_list_v2 <- function(x,
             assert_that(x %>% filter(is.na(!!sym(grp))) %>% nrow() ==0,
                         msg =  paste("La columna '",grp,"' tiene valores nulos",sep = ""))
         }
-
+ 
+ 
         # Verifica que se pueda ejecutar en paralelo
         if (parallel::detectCores() < 4) {
             print("No se detectaron suficientes procesadores, se usara la version simple")
