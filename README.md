@@ -4,7 +4,7 @@ output:
   word_document: default
 ---
 
-Nueva version: feb, 2023
+Nueva version: feb 13, 2023
 
 # DataBook for R
 
